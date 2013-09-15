@@ -1,0 +1,102 @@
+-- MySQL dump 10.10
+--
+-- Host: localhost    Database: school_dev
+-- ------------------------------------------------------
+-- Server version	5.0.24-community-nt
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `results`
+--
+
+DROP TABLE IF EXISTS `results`;
+CREATE TABLE `results` (
+  `id` int(11) NOT NULL auto_increment,
+  `school_id` int(11) default NULL,
+  `subject_id` int(11) default NULL,
+  `latestY3` decimal(18,9) default NULL,
+  `latestY5` decimal(18,9) default NULL,
+  `latestY7` decimal(18,9) default NULL,
+  `latestY9` decimal(18,9) default NULL,
+  `rawGainY3Y5` decimal(18,9) default NULL,
+  `factoredGainY3Y5` decimal(18,9) default NULL,
+  `glgY3Y5` decimal(18,9) default NULL,
+  `latestGainInGainY3Y5` decimal(18,9) default NULL,
+  PRIMARY KEY  (`id`),
+  KEY `id_idx` (`school_id`),
+  KEY `id_idx1` (`subject_id`),
+  CONSTRAINT `id` FOREIGN KEY (`school_id`) REFERENCES `schools` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `id2` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `results`
+--
+
+
+/*!40000 ALTER TABLE `results` DISABLE KEYS */;
+LOCK TABLES `results` WRITE;
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `results` ENABLE KEYS */;
+
+--
+-- Table structure for table `schools`
+--
+
+DROP TABLE IF EXISTS `schools`;
+CREATE TABLE `schools` (
+  `id` int(11) NOT NULL auto_increment,
+  `schoolName` varchar(40) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `schools`
+--
+
+
+/*!40000 ALTER TABLE `schools` DISABLE KEYS */;
+LOCK TABLES `schools` WRITE;
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `schools` ENABLE KEYS */;
+
+--
+-- Table structure for table `subjects`
+--
+
+DROP TABLE IF EXISTS `subjects`;
+CREATE TABLE `subjects` (
+  `id` int(11) NOT NULL auto_increment,
+  `description` varchar(45) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `subjects`
+--
+
+
+/*!40000 ALTER TABLE `subjects` DISABLE KEYS */;
+LOCK TABLES `subjects` WRITE;
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `subjects` ENABLE KEYS */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
