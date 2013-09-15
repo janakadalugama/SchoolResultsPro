@@ -15,7 +15,7 @@
     
     <title>CingleVue Coding Challenge</title>
 	<script src="${resourceUrl}/js/jquery.js"></script>
-	<script type="text/javascript"    src="${resourceUrl}/js/handlebars.js" />
+	
     <!-- Bootstrap core CSS -->
     <link href="${resourceUrl}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
