@@ -48,7 +48,6 @@ public class SchoolDaoMongoDbImpl implements SchoolDao {
 		logger.info("Entered to DAO for quiring result for subject "+subjectCode);
 		
 		Query searchUserQuery = new Query(Criteria.where("subject.code").is(subjectCode));
-		
 	    List<Result> lst= mongoOperation.find(searchUserQuery, Result.class);
 		return lst;
 	}
