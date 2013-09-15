@@ -58,6 +58,6 @@ public class ResultsController {
 			logger.error(" Error " +e.getMessage());
 			jsonStr="[{\"error\", \""+e.getMessage()+"\"}]";
 		}
-		return jsonStr;
+		return  "{ \"schools\": " +jsonStr +" }";
 	}
 }

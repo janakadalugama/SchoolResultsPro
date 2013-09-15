@@ -14,7 +14,8 @@
     <meta name="author" content="">
     
     <title>CingleVue Coding Challenge</title>
-
+	<script src="${resourceUrl}/js/jquery.js"></script>
+	<script type="text/javascript"    src="${resourceUrl}/js/handlebars.js" />
     <!-- Bootstrap core CSS -->
     <link href="${resourceUrl}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -42,7 +43,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="${resourceUrl}/js/jquery.js"></script>
+    
     <script src="${resourceUrl}/bootstrap/js/bootstrap.min.js"></script>
     <script src="${resourceUrl}/js/offcanvas.js"></script>
   </body>
