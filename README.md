@@ -40,8 +40,9 @@ Mongo DB :
  
    Database configuration is stored on src\main\webapp\WEB-INF\cinglevue-servlet.xml, You can change as you wish.
    
- Tomcat Server deployment
- ========================
+Tomcat Server deployment
+========================
+
    Assume tomcat is up and running on your local machine.
    
    From the project root folder , run the follwoing mvn command 
