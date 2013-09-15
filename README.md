@@ -63,14 +63,15 @@ Tomcat Server Deployment
    
    Selection filter has been given for you to see the subject wise result.
    
-   Project Structure and How It Work.
-   =================================
+Project Structure and How It Work.
+=================================
 
-    Project has been desing as 3 tire layered architecture. Hence the dependence is very less. Even though the current project
-    had connect to mongoDb ,At any time , you can change the database to some ther with minimal effort.  The sample project 
-    shows how to connect to Mysql databse as an example.
-        Browser /server communication goes with JSON objects and user can see the result much speeder without refresing the page
-   JQuery and handlebars  is used to achive this
+Project has been desing as 3 tire layered architecture. Hence the dependence is very less. Even though the current 
+project had connected to mongoDb ,At any time , you can change the database to some other with minimal effort.  
+The sample project shows how to connect to Mysql databse as an example.
+
+Browser /server communication goes with JSON objects and user can see the result much speeder without refresing the
+page.   JQuery and handlebars  is used to achive this.
    
    
 
