@@ -1,5 +1,6 @@
 package com.cinglevue.codeingchallenge.web;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -13,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.cinglevue.codeingchallenge.domain.Result;
+import com.cinglevue.codeingchallenge.domain.Subject;
+import com.cinglevue.codeingchallenge.exception.CinglevueException;
 import com.cinglevue.codeingchallenge.service.SchoolService;
 
 
@@ -24,9 +27,21 @@ public class ResultsController {
 	@Autowired
 	private SchoolService schoolService;
 	
+	
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
 		logger.debug("Arrived Welcome Page");
+		
+		List<Subject> subjects;
+		try {
+			subjects = schoolService.getSubjectList();
+			
+			model.addAttribute("subjects", subjects);
+			
+		} catch (CinglevueException e) {
+			logger.error(e.getMessage());
+		}
+
 		return "home";
 	}
 	

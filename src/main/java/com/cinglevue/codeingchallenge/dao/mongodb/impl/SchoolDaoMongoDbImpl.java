@@ -54,8 +54,10 @@ public class SchoolDaoMongoDbImpl implements SchoolDao {
 
 	@Override
 	public List<Subject> getSubjectList() throws CinglevueException {
-		// TODO Auto-generated method stub
-		return null;
+		
+		logger.info("Entered to DAO for quering result for subjects ");
+	    List<Subject> lst= mongoOperation.findAll( Subject.class);
+		return lst;
 	}
 
 }

@@ -12,9 +12,10 @@
 		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
 	</definition>
 	
-	  	<!-- Home page -->	
+	<!-- Home page -->	
   	<definition name="home" extends="two_column_right_menu_layout">
-  		<put-attribute name="left-column" value="/WEB-INF/views/hello.jsp" />
+  	    <put-attribute name="right-column" value="/WEB-INF/views/right_panel.jsp" />
+  		<put-attribute name="left-column" value="/WEB-INF/views/left_panel.jsp" />
  	</definition> 
  	
 </tiles-definitions>

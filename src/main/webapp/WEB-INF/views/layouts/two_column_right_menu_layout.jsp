@@ -5,20 +5,45 @@
 
 <spring:url value="/resources" var="resourceUrl"/>
 
-<html>
+<html lang="en">
   <head>
     <tiles:insertAttribute name="html_head" />
-    <title>Bootstrap 101 Template</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="${resourceUrl}/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>CingleVue Coding Challenge</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="${resourceUrl}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="${resourceUrl}/css/offcanvas.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    <tiles:insertAttribute name="header" />
-    <tiles:insertAttribute name="left-column"/>
-    <tiles:insertAttribute name="right-column"/>
-    <tiles:insertAttribute name="footer" />
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+ 	<tiles:insertAttribute name="header" />
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+		 <tiles:insertAttribute name="left-column"/>
+		 <tiles:insertAttribute name="right-column"/>
+      </div><!--/row-->
+      <hr>
+     <tiles:insertAttribute name="footer" />
+    </div><!--/.container-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="${resourceUrl}/js/jquery.js"></script>
+    <script src="${resourceUrl}/bootstrap/js/bootstrap.min.js"></script>
+    <script src="${resourceUrl}/js/offcanvas.js"></script>
   </body>
 </html>
