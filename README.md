@@ -59,7 +59,7 @@ Tomcat Server Deployment
 
    After deploying succefully , you can access the application using follwoing URL
    
-   http://<yourTomcatHost>:<port>/codingChallenge
+   http://[yourTomcatHost]:[port]/codingChallenge
    
    Selection filter has been given for you to see the subject wise result.
    
