@@ -7,6 +7,7 @@ given  subjects
 Pre requirests
 ==============
   JDK 1.5 or higher
+  Apache Tomcat 6+ or J2EE compatible server
   
  
 Technologies
@@ -35,6 +36,19 @@ Mongo DB :
  
  #load("seedData.js")
  
+ Note:
+ 
+   Database configuration is stored on src\main\webapp\WEB-INF\cinglevue-servlet.xml, You can change as you wish.
+   
+ Tomcat Server deployment
+ ========================
+   Assume tomcat is up and running on your local machine.
+   
+   From the project root folder , run the follwoing mvn command 
+   
+   # mvn tomcat:deploy -P dev
+   
+   Note: You can change pom.xml in order to change  tomcat configuration 
 
 
 
