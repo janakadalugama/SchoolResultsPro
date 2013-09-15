@@ -42,6 +42,33 @@
 	<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
   </p>
   <div class="row" id="content-placeholder">
-		
+		<table class="table table-striped table-bordered table-condensed">
+					<thead>
+						<tr>
+							<th>school</th>
+							<th>Y3</th>
+							<th>Y5</th>
+							<th>Y7</th>
+							<th>Y9</th>
+							<th>Raw Gain Y3Y5</th>
+							<th>Factored Gain Y3Y5</th>
+							<th>GLG Y3Y5</th>
+							<th>latestGainInGainY3Y5</th>
+						</tr>
+					</thead>
+					<tbody>
+						 <tr>
+							<td>&nbsp</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
   </div><!--/row-->
 </div><!--/span-->

@@ -11,7 +11,7 @@
               <li>  Subject</li>
               <li class="active">
 	              <select id="subjectId" name="subject" >
-		          	 <option value="-1">Select</option>
+		          	 <option value="-1">Select Subject</option>
 			          <c:forEach var="subject" items="${subjects}">
 							<option value="${subject.code}">${subject.description}</option>
 			          </c:forEach>
