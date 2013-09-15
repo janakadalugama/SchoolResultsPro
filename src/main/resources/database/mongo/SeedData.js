@@ -169,3 +169,1305 @@ db.schools.insert({
 	name : "Newcastle High School",
 	code : "nchs"
 })
+
+//Results
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "stvc"}),
+    latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "Adps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "apps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "alhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "baps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "bghs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "cphs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "cahs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "daps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "dups"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "ewps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "evhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "ffhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "frps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "ghps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "gwps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "hbps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "hhhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "jrps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "keps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "laps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "lghs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "mlhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "mips"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Reading"}),
+    school               : db.schools.findOne({code : "nchs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "stvc"}),
+    latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "Adps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "apps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "alhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "baps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "bghs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "cphs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "cahs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "daps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "dups"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "ewps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "evhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "ffhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "frps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "ghps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "gwps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "hbps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "hhhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "jrps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "keps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "laps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "lghs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "mlhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "mips"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Grammar_Punctuation"}),
+    school               : db.schools.findOne({code : "nchs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "stvc"}),
+    latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "Adps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "apps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "alhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "baps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "bghs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "cphs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "cahs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "daps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "dups"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "ewps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "evhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "ffhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "frps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "ghps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "gwps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "hbps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "hhhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "jrps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "keps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "laps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "lghs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "mlhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "mips"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Numeracy"}),
+    school               : db.schools.findOne({code : "nchs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "stvc"}),
+    latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "Adps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "apps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "alhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "baps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "bghs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "cphs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "cahs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "daps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "dups"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "ewps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "evhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "ffhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "frps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "ghps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "gwps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "hbps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "hhhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "jrps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "keps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "laps"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "lghs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "mlhs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "mips"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
+
+db.schoolsubjects.insert({
+    subject                 : db.subjects.findOne({code : "Persuasive_Writing"}),
+    school               : db.schools.findOne({code : "nchs"}),
+     latestY3                : 456.88,  
+    latestY5                : 123.97,
+    latestY7                : 34.76,
+    latestY9                : 67.89,
+    rawGainY3Y5          : 78.80,
+    factoredGainY3Y5      : 4.56,
+    glgY3Y5              : 89.89,
+    latestGainInGainY3Y5 : 7.8
+})
